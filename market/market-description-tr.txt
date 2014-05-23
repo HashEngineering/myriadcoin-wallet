@@ -1,20 +1,20 @@
-digitalcoin'leriniz daima cebinizde sizinle olsun! Herhangi bir QR kodunu okuyarak çabuk ödeme yapabilirsiniz. Bir tüccar olarak ödemeleri güvenilir ve anında alabilirsiniz. digitalcoin cüzdanı ilk mobil digitalcoin uygulamasıdır ve muhtemelen en güvenli digitalcoin uygulamasıdır!
+Myriadcoin'leriniz daima cebinizde sizinle olsun! Herhangi bir QR kodunu okuyarak çabuk ödeme yapabilirsiniz. Bir tüccar olarak ödemeleri güvenilir ve anında alabilirsiniz. Myriadcoin cüzdanı ilk mobil Myriadcoin uygulamasıdır ve muhtemelen en güvenli Myriadcoin uygulamasıdır!
 
 İŞLEVLERİ:
 • Hiçbir oturuma, web ya da bulut hizmetine gerek yoktur. Bu cüzdan merkezsiz ve eşten eşedir.
-• digitalcoin meblağlarının DGC ve mDGC olarak gösterilmesi.
+• Myriadcoin meblağlarının MYR ve mMYR olarak gösterilmesi.
 • Ulusal para birimlerine ve bu para birimlerinden dönüştürme.
-• NFC, QR kodu veya digitalcoin bağlantıları ile digitalcoin gönderir ve alır.
-• Sık kullanılan digitalcoin adresleri için adres defteri içerir.
+• NFC, QR kodu veya Myriadcoin bağlantıları ile Myriadcoin gönderir ve alır.
+• Sık kullanılan Myriadcoin adresleri için adres defteri içerir.
 • Çevrimdışı olduğunuzda Bluetooth vasıtasıyla ödemeler.
-• Alınan digitalcoin'ler için sistem bildirimleri.
-• digitalcoin bakiyesini görüntüleyen widget.
+• Alınan Myriadcoin'ler için sistem bildirimleri.
+• Myriadcoin bakiyesini görüntüleyen widget.
 
-digitalcoin hakkında daha fazla bilgi için şu siteyi ziyaret edebilirsiniz:
-http://digitalcoin.co
+Myriadcoin hakkında daha fazla bilgi için şu siteyi ziyaret edebilirsiniz:
+http://myriad.theblockexplorer.com
 
-digitalcoin Wallet uygulamasına katkıda bulunmak istiyorsanız proje sayfasını ziyaret ediniz:
-https://github.com/HashEngineering/digitalcoin-wallet
+Myriadcoin Wallet uygulamasına katkıda bulunmak istiyorsanız proje sayfasını ziyaret ediniz:
+https://github.com/HashEngineering/myriadcoin-wallet
 
 Lisans: GPLv3
 Tüm riski siz üstlenmiş olursunuz.

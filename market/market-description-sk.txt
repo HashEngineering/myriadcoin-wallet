@@ -1,21 +1,21 @@
-digitalcoiny vždy so sebou vo svojom vrecku. Jednoduché a rýchle platby pomocou QR kódov. Pre obchodníkov ponúka spoľahlivé a okamžité prijímanie platieb. digitalcoin Wallet je prvá mobilná digitalcoin aplikácia a preukázateľne aj najbezpečnejšia.
+Myriadcoiny vždy so sebou vo svojom vrecku. Jednoduché a rýchle platby pomocou QR kódov. Pre obchodníkov ponúka spoľahlivé a okamžité prijímanie platieb. Myriadcoin Wallet je prvá mobilná Myriadcoin aplikácia a preukázateľne aj najbezpečnejšia.
 
 FUNKCIE:
 
 • Nie je potrebná žiadna registrácia ani žiadny účet.
-• Zobrazenie zostatku digitalcoinov v DGC alebo mDGC.
-• Prepočet hodnoty digitalcoinov do viacerých cudzích mien.
-• Posielanie a prijímanie digitalcoinov pomocou NFC, QR kódov alebo digitalcoin adries.
-• Adresár pre často používané digitalcoin adresy.
+• Zobrazenie zostatku Myriadcoinov v MYR alebo mMYR.
+• Prepočet hodnoty Myriadcoinov do viacerých cudzích mien.
+• Posielanie a prijímanie Myriadcoinov pomocou NFC, QR kódov alebo Myriadcoin adries.
+• Adresár pre často používané Myriadcoin adresy.
 • V offline režime je platba možná aj cez Bluetooth.
-• Notifikácie v stavovej lište pri prijatí digitalcoinov.
+• Notifikácie v stavovej lište pri prijatí Myriadcoinov.
 • Widget s celkovým zostatkom.
 
-Viac informácií o digitalcoine
-http://digitalcoin.co
+Viac informácií o Myriadcoine
+http://myriad.theblockexplorer.com
 
-Ak chcete prispieť do projektu digitalcoin Wallet nájdete ho na adrese
-https://github.com/HashEngineering/digitalcoin-wallet
+Ak chcete prispieť do projektu Myriadcoin Wallet nájdete ho na adrese
+https://github.com/HashEngineering/myriadcoin-wallet
 
 Licencia: GPLv3
 Použitie len na vlastné riziko!

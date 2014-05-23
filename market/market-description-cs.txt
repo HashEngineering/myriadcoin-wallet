@@ -1,19 +1,19 @@
-Tato aplikace je peněženka s digitalcoiny pro systém Android. Můžete posílat digitalcoiny mezi telefony prostým naskenováním QR kódu, který je zobrazen aplikací, nebo pomocí NFC (Near Field Communication).
+Tato aplikace je peněženka s Myriadcoiny pro systém Android. Můžete posílat Myriadcoiny mezi telefony prostým naskenováním QR kódu, který je zobrazen aplikací, nebo pomocí NFC (Near Field Communication).
 
 VLASTNOSTI:
 
-• Zobrazení zůstatku peněženky v digitalcoinech a několika jiných měnách.
-• Odesílání a přijímání digitalcoinů pomocí NFC, QR-kódů, nebo digitalcoin adres.
+• Zobrazení zůstatku peněženky v Myriadcoinech a několika jiných měnách.
+• Odesílání a přijímání Myriadcoinů pomocí NFC, QR-kódů, nebo Myriadcoin adres.
 • Adresář pro často používané adresy.
 • Možnost zadávání transakcí v offline režimu, k jejich zpracování dojde po připojení.
-• Oznamování v liště při synchronizaci a při přijetí digitalcoinů.
+• Oznamování v liště při synchronizaci a při přijetí Myriadcoinů.
 • Widget s celkovým zůstatkem.
 
-Více informací o digitalcoinech
-http://digitalcoin.co
+Více informací o Myriadcoinech
+http://myriad.theblockexplorer.com
 
-Pokud chcete přispět do projektu digitalcoin Wallet, naleznete jej na adrese
-https://github.com/HashEngineering/digitalcoin-wallet
+Pokud chcete přispět do projektu Myriadcoin Wallet, naleznete jej na adrese
+https://github.com/HashEngineering/myriadcoin-wallet
 
 License: GPLv3
 Použití pouze na vlastní riziko!

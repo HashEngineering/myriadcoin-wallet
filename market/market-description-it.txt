@@ -1,21 +1,21 @@
-Porta i tuoi digitalcoin sempre con te, in tasca! Paghi velocemente scansionando un QR-code. Come un commerciante, riceverai i pagamenti sicuri e istantanei. digitalcoin Wallet è la prima digitalcoin app mobile, e probabilmente anche la più sicura!
+Porta i tuoi Myriadcoin sempre con te, in tasca! Paghi velocemente scansionando un QR-code. Come un commerciante, riceverai i pagamenti sicuri e istantanei. Myriadcoin Wallet è la prima Myriadcoin app mobile, e probabilmente anche la più sicura!
 
 CARATTERISTICHE:
 
 • Non è necessaria alcuna registrazione, servizio web o cloud! Questo portafoglio è de-centralizzato e peer to peer.
-• Mostra l'ammontare di digitalcoin in DGC e mDGC.
+• Mostra l'ammontare di Myriadcoin in MYR e mMYR.
 • Conversione verso e dalle monete nazionali.
-• Invio e ricevimento di digitalcoin tramite NFC, codici QR o URL digitalcoin.
-• Rubrica degli indirizzi per usare indirizzi digitalcoin regolarmente.
+• Invio e ricevimento di Myriadcoin tramite NFC, codici QR o URL Myriadcoin.
+• Rubrica degli indirizzi per usare indirizzi Myriadcoin regolarmente.
 • Quando sei offline, puoi comunque ancora pagare via Bluetooth.
 • Sistema di notifica per le monete ricevute.
-• App Widget per il saldo digitalcoin
+• App Widget per il saldo Myriadcoin
 
-Puoi trovare altri dettagli su digitalcoin su
-http://digitalcoin.co
+Puoi trovare altri dettagli su Myriadcoin su
+http://myriad.theblockexplorer.com
 
-Se vuoi contribuire a digitalcoin Wallet, il progetto si trova su
-https://github.com/HashEngineering/digitalcoin-wallet
+Se vuoi contribuire a Myriadcoin Wallet, il progetto si trova su
+https://github.com/HashEngineering/myriadcoin-wallet
 
 Licenza: GPLv3
 Usalo a tuo rischio!

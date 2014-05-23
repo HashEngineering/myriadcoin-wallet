@@ -28,7 +28,7 @@ import com.google.bitcoin.core.NetworkParameters;
 import com.google.bitcoin.params.MainNetParams;
 import com.google.bitcoin.params.TestNet3Params;
 import com.google.bitcoin.core.CoinDefinition;
-import hashengineering.digitalcoin.wallet.R;
+import hashengineering.myriadcoin.wallet.R;
 
 /**
  * @author Andreas Schildbach
@@ -111,8 +111,8 @@ public class Constants
 	public static final String BINARY_URL = "https://github.com/HashEngineering/"+ CoinDefinition.coinName.toLowerCase() +"-wallet/releases";
 	public static final String CREDITS_BITCOINJ_URL = "https://github.com/HashEngineering/" + CoinDefinition.coinName.toLowerCase() + "j";
 	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/zxing/";
-    public static final String CREDITS_WEBSITE_URL = "http://digitalcoin.co/";
-    public static final String CREDITS_FORUM_URL = "http://digitalcoin.co/forums/";
+    public static final String CREDITS_WEBSITE_URL = "http://myriad.theblockexplorer.com/";
+    public static final String CREDITS_FORUM_URL = "http://myriad.theblockexplorer.com/forums/";
 
 	public static final String CREDITS_ICON_URL = "https://bitcointalk.org/index.php?action=profile;u=2062";
 

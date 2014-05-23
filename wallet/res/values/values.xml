@@ -4,7 +4,7 @@
 	<string name="symbol_to">→</string>
 	<string name="symbol_from">←</string>
 	<string name="symbol_internal">⇄</string>
-	<string name="app_name">digitalcoin</string>
+	<string name="app_name">Myriadcoin (beta)</string>
 
 
 
@@ -16,11 +16,11 @@
 		<item>0/6</item>
 	</string-array>
 	<string-array name="preferences_precision_labels">
-		<item>DGC, 8 digits</item>
-		<item>DGC, 6 digits</item>
-		<item>DGC, 4 digits</item>
-		<item>mDGC, 2 digits</item>
-		<item>µDGC, no digits</item>
+		<item>MYR, 8 digits</item>
+		<item>MYR, 6 digits</item>
+		<item>MYR, 4 digits</item>
+		<item>mMYR, 2 digits</item>
+		<item>µMYR, no digits</item>
 	</string-array>
 
 </resources>
