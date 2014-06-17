@@ -38,4 +38,6 @@
 		android:paddingTop="2dp"
 		android:textSize="@dimen/font_size_normal" />
 
+
+
 </LinearLayout>

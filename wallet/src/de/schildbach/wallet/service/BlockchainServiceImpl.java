@@ -937,4 +937,5 @@ public class BlockchainServiceImpl extends android.app.Service implements Blockc
 			}
 		}.start();
 	}
+    public final BlockStore getBlockStore() { return blockStore;}
 }

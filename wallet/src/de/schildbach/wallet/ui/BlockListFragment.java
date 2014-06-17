@@ -61,6 +61,7 @@ import com.google.bitcoin.core.Sha256Hash;
 import com.google.bitcoin.core.StoredBlock;
 import com.google.bitcoin.core.Transaction;
 import com.google.bitcoin.core.Wallet;
+import com.hashengineering.crypto.difficulty.Utils;
 
 import de.schildbach.wallet.Configuration;
 import de.schildbach.wallet.Constants;
@@ -282,7 +283,8 @@ public final class BlockListFragment extends SherlockListFragment
 		{
 			final ViewGroup row;
 			if (convertView == null)
-				row = (ViewGroup) getLayoutInflater(null).inflate(R.layout.block_row, null);
+				//row = (ViewGroup) getLayoutInflater(null).inflate(R.layout.block_row, null);
+                row = (ViewGroup) getLayoutInflater(null).inflate(R.layout.block_row_extra, parent, false);
 			else
 				row = (ViewGroup) convertView;
 
@@ -299,6 +301,37 @@ public final class BlockListFragment extends SherlockListFragment
 
 			final TextView rowHash = (TextView) row.findViewById(R.id.block_list_row_hash);
 			rowHash.setText(WalletUtils.formatHash(null, header.getHashAsString(), 8, 0, ' '));
+
+            final TextView rowAlgo = (TextView) row.findViewById(R.id.block_list_row_algo);
+            if(rowAlgo != null)
+                rowAlgo.setText(header.getAlgoName());
+
+            final TextView rowDiff = (TextView) row.findViewById(R.id.block_list_row_difficulty);
+            if(rowDiff != null)
+                rowDiff.setText(String.format("%.03f", Utils.ConvertBitsToDouble(header.getDifficultyTarget())));
+
+            double hashrate = Utils.getNetworkHashRate(storedBlock, ((BlockchainServiceImpl) service).getBlockStore());
+            final TextView rowHashRate = (TextView) row.findViewById(R.id.block_list_row_hashrate);
+
+            int order = 0;
+            String [] strOrder = {"", "K", "M", "G", "T", "P"};
+
+            if(hashrate > 1e3)
+                order = 1;
+            if(hashrate > 1e6)
+                order = 2;
+            if(hashrate > 1e9)
+                order = 3;
+            if(hashrate > 1e12)
+                order = 4;
+            if(hashrate > 1e15)
+                order = 5;
+
+
+
+
+
+            rowHashRate.setText(String.format("%d %sH/s", (long)(hashrate/java.lang.Math.pow(10, order*3)), strOrder[order]));
 
 			final int transactionChildCount = row.getChildCount() - ROW_BASE_CHILD_COUNT;
 			int iTransactionView = 0;
