@@ -111,8 +111,8 @@ public class Constants
 	public static final String BINARY_URL = "https://github.com/HashEngineering/"+ CoinDefinition.coinName.toLowerCase() +"-wallet/releases";
 	public static final String CREDITS_BITCOINJ_URL = "https://github.com/HashEngineering/" + CoinDefinition.coinName.toLowerCase() + "j";
 	public static final String CREDITS_ZXING_URL = "http://code.google.com/p/zxing/";
-    public static final String CREDITS_WEBSITE_URL = "http://myriad.theblockexplorer.com/";
-    public static final String CREDITS_FORUM_URL = "http://myriad.theblockexplorer.com/forums/";
+    public static final String CREDITS_WEBSITE_URL = "http://myriadplatform.org/";
+    public static final String CREDITS_FORUM_URL = "https://bitcointalk.org/index.php?topic=483515.0";
 
 	public static final String CREDITS_ICON_URL = "https://bitcointalk.org/index.php?action=profile;u=2062";
 
