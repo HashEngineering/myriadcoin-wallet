@@ -330,8 +330,9 @@ public final class BlockListFragment extends SherlockListFragment
 
 
 
-
-            rowHashRate.setText(String.format("%d %sH/s", (long)(hashrate/java.lang.Math.pow(10, order*3)), strOrder[order]));
+            if(hashrate >= 0)
+                rowHashRate.setText(String.format("%d %sH/s", (long)(hashrate/java.lang.Math.pow(10, order*3)), strOrder[order]));
+            else rowHashRate.setText("N/A");
 
 			final int transactionChildCount = row.getChildCount() - ROW_BASE_CHILD_COUNT;
 			int iTransactionView = 0;
