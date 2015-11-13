@@ -17,26 +17,8 @@
 
 package de.schildbach.wallet.ui;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.concurrent.RejectedExecutionException;
-
-import javax.annotation.Nonnull;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import android.app.Activity;
-import android.content.BroadcastReceiver;
-import android.content.ComponentName;
-import android.content.Context;
-import android.content.Intent;
-import android.content.IntentFilter;
-import android.content.ServiceConnection;
+import android.content.*;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.IBinder;
@@ -50,19 +32,13 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-
 import com.actionbarsherlock.app.SherlockListFragment;
 import com.actionbarsherlock.view.ActionMode;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
-import com.google.bitcoin.core.Block;
-import com.google.bitcoin.core.Sha256Hash;
-import com.google.bitcoin.core.StoredBlock;
-import com.google.bitcoin.core.Transaction;
-import com.google.bitcoin.core.Wallet;
+import com.google.bitcoin.core.*;
 import com.hashengineering.crypto.difficulty.Utils;
-
 import de.schildbach.wallet.Configuration;
 import de.schildbach.wallet.Constants;
 import de.schildbach.wallet.WalletApplication;
@@ -70,6 +46,12 @@ import de.schildbach.wallet.service.BlockchainService;
 import de.schildbach.wallet.service.BlockchainServiceImpl;
 import de.schildbach.wallet.util.WalletUtils;
 import hashengineering.myriadcoin.wallet.R;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import javax.annotation.Nonnull;
+import java.util.*;
+import java.util.concurrent.RejectedExecutionException;
 
 
 /**
@@ -303,8 +285,12 @@ public final class BlockListFragment extends SherlockListFragment
 			rowHash.setText(WalletUtils.formatHash(null, header.getHashAsString(), 8, 0, ' '));
 
             final TextView rowAlgo = (TextView) row.findViewById(R.id.block_list_row_algo);
-            if(rowAlgo != null)
-                rowAlgo.setText(header.getAlgoName());
+            if(rowAlgo != null) {
+				String mm = "";
+				if(header.isMMBlock())
+					mm = " (mm)";
+				rowAlgo.setText(header.getAlgoName()+mm);
+			}
 
             final TextView rowDiff = (TextView) row.findViewById(R.id.block_list_row_difficulty);
             if(rowDiff != null)
