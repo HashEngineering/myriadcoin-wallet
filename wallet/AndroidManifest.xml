@@ -5,8 +5,8 @@
 	package="hashengineering.myriadcoin.wallet"
 	android:installLocation="internalOnly"
 
-	android:versionCode="10029"
-	android:versionName="0.9.2.16a" >
+	android:versionCode="10030"
+	android:versionName="0.9.2.16b" >
 
 
 	<uses-sdk
