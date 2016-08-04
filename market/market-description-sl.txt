@@ -3,7 +3,7 @@ Nosite svoje novce vedno s seboj v žepu. Plačila so hitra, le prečitate QR-ko
 LASTNOSTI:
 
 • Potrebna ni nobena registracija, spletna storitev ali oblak! Ta denarnica deluje povsem decentralizirano in vrstniško.
-• Prikaz zneskov v MYR, mMYR ali µMYR.
+• Prikaz zneskov v XMY, mXMY ali µXMY.
 • Samodejna pretvorba v evre in druge lokalne valute.
 • Pošiljanje in prejemanje Myriadcoinov prek NFC, QR-kod ali Myriadcoin URL-jev.
 • Zasebni imenik Myriadcoin naslovov.

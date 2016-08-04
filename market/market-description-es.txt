@@ -3,7 +3,7 @@ Ten tus Myriadcoins siempre contigo, en tu bolsillo! Paga rápidamente escaneand
 CARACTERÍSTICAS:
 
 • ¡No requiere registro, servidor en la nube o servicio web! Este monedero es auténticamente entre pares (peer-to-peer).
-• Muestra la cantidad de Myriadcoins en MYR y mMYR
+• Muestra la cantidad de Myriadcoins en XMY y mXMY
 • Conversión a divisas nacionales.
 • Envío y recepción de Myriadcoins vía NFC, códigos QR o URL de Myriadcoin.
 • Libreta de direcciones para guardar las direcciones Myriadcoin más utilizadas.

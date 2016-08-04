@@ -2,11 +2,11 @@
 <resources>
 
 	<string-array name="preferences_precision_labels">
-		<item>MYR, 8 decimaler</item>
-		<item>MYR, 6 decimaler</item>
-		<item>MYR, 4 decimaler</item>
-		<item>mMYR, 2 decimaler</item>
-		<item>µMYR, uden decimaler</item>
+		<item>XMY, 8 decimaler</item>
+		<item>XMY, 6 decimaler</item>
+		<item>XMY, 4 decimaler</item>
+		<item>mXMY, 2 decimaler</item>
+		<item>µXMY, uden decimaler</item>
 	</string-array>
 
 </resources>

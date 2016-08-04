@@ -3,7 +3,7 @@ Hav altid dine Myriadcoins med dig i din lomme! Du betaler ved hurtigt at scanne
 FUNKTIONER:
 
 • Ingen registrering, webservice eller sky behøves! Tegnebogen er decentraliseret og peer-to-peer.
-• Visning af Myriadcoin-beløb i MYR, mMYR og µMYR.
+• Visning af Myriadcoin-beløb i XMY, mXMY og µXMY.
 • Konvertering til og fra lokale valutaer.
 • Afsendelse og modtagelse af Myriadcoin via NFC, QR-koder eller Myriadcoin-URLer.
 • Adressebog til ofte brugte Myriadcoin-adresser.

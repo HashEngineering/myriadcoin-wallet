@@ -3,7 +3,7 @@ Hab deine Myriadcoins immer dabei, in deiner Hosentasche! Du zahlst, indem du ra
 FEATURES:
 
 • Keine Registrierung, Web-Dienst oder Cloud nötig! Diese Wallet ist dezentral und Peer to Peer.
-• Anzeige von Myriadcoin-Werten in MYR, mMYR und µMYR.
+• Anzeige von Myriadcoin-Werten in XMY, mXMY und µXMY.
 • Umrechnung von und zu den nationalen Währungen.
 • Senden und Empfangen von Myriadcoin via NFC, QR-Codes oder Myriadcoin URLs.
 • Adressbuch für regelmäßig genutzte Empfänger.

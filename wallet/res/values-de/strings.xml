@@ -77,7 +77,7 @@
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Kann Adresse von unbekanntem Netzwerk mit dieser Wallet nicht nutzen!</string>
 
 	<string name="send_coins_fragment_receiving_address_complex">komplexe\nAdresse</string>
-	<string name="send_coins_fragment_pending">(MYR %s warten auf Bestätigung)</string>
+	<string name="send_coins_fragment_pending">(XMY %s warten auf Bestätigung)</string>
 
 	<string name="send_coins_fragment_amount_label">Betrag</string>
 	<string name="send_coins_fragment_direct_payment_enable">Zahlung auch direkt senden</string>
@@ -253,8 +253,8 @@
 	<string name="button_paste">Einfügen</string>
 	<string name="button_share">Teilen</string>
 	<string name="button_set_as_default">Als Standard setzen</string>
-	<string name="button_request_coins">MYR anfordern</string>
-	<string name="button_send_coins">MYR senden</string>
+	<string name="button_request_coins">XMY anfordern</string>
+	<string name="button_send_coins">XMY senden</string>
 	<string name="button_scan">Scannen</string>
 	<string name="button_edit_address">Adresse hinzufügen/ändern</string>
 	<string name="button_settings">Einstellungen</string>

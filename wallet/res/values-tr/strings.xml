@@ -69,7 +69,7 @@
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Bilinmeyen bir şebekenin adresi bu cüzdanla kullanılamaz!</string>
 
 	<string name="send_coins_fragment_receiving_address_complex">karmaşık\nadres</string>
-	<string name="send_coins_fragment_pending">(%s MYR teyit bekliyor)</string>
+	<string name="send_coins_fragment_pending">(%s XMY teyit bekliyor)</string>
 
 	<string name="send_coins_fragment_amount_label">Ödenecek miktar</string>
 	<string name="send_coins_fragment_direct_payment_enable">Ödemeyi doğrudan alacaklıya gönder.</string>

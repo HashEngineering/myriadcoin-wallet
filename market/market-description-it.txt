@@ -3,7 +3,7 @@ Porta i tuoi Myriadcoin sempre con te, in tasca! Paghi velocemente scansionando 
 CARATTERISTICHE:
 
 • Non è necessaria alcuna registrazione, servizio web o cloud! Questo portafoglio è de-centralizzato e peer to peer.
-• Mostra l'ammontare di Myriadcoin in MYR e mMYR.
+• Mostra l'ammontare di Myriadcoin in XMY e mXMY.
 • Conversione verso e dalle monete nazionali.
 • Invio e ricevimento di Myriadcoin tramite NFC, codici QR o URL Myriadcoin.
 • Rubrica degli indirizzi per usare indirizzi Myriadcoin regolarmente.

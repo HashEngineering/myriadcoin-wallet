@@ -2,7 +2,7 @@ Myriadcoin'leriniz daima cebinizde sizinle olsun! Herhangi bir QR kodunu okuyara
 
 İŞLEVLERİ:
 • Hiçbir oturuma, web ya da bulut hizmetine gerek yoktur. Bu cüzdan merkezsiz ve eşten eşedir.
-• Myriadcoin meblağlarının MYR ve mMYR olarak gösterilmesi.
+• Myriadcoin meblağlarının XMY ve mXMY olarak gösterilmesi.
 • Ulusal para birimlerine ve bu para birimlerinden dönüştürme.
 • NFC, QR kodu veya Myriadcoin bağlantıları ile Myriadcoin gönderir ve alır.
 • Sık kullanılan Myriadcoin adresleri için adres defteri içerir.

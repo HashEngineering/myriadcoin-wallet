@@ -3,7 +3,7 @@ Myriadcoiny vždy so sebou vo svojom vrecku. Jednoduché a rýchle platby pomoco
 FUNKCIE:
 
 • Nie je potrebná žiadna registrácia ani žiadny účet.
-• Zobrazenie zostatku Myriadcoinov v MYR alebo mMYR.
+• Zobrazenie zostatku Myriadcoinov v XMY alebo mXMY.
 • Prepočet hodnoty Myriadcoinov do viacerých cudzích mien.
 • Posielanie a prijímanie Myriadcoinov pomocou NFC, QR kódov alebo Myriadcoin adries.
 • Adresár pre často používané Myriadcoin adresy.

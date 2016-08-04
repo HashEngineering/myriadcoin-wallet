@@ -61,7 +61,7 @@
 	<string name="send_coins_fragment_receiving_address_error">Nesprávna Myriadcoin adresa!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network">Adresu %s nie je možné použiť s touto peňaženkou!</string>
 	<string name="send_coins_fragment_receiving_address_error_cross_network_unknown">Adresu z neznámej siete nie je možné použiť s touto peňaženkou!</string>
-	<string name="send_coins_fragment_pending">(%s MYR čaká na potvrdenie)</string>
+	<string name="send_coins_fragment_pending">(%s XMY čaká na potvrdenie)</string>
 	<string name="send_coins_fragment_receiving_address_complex">komplexná\nadresa</string>
 	<string name="send_coins_fragment_amount_label">Suma</string>
 	<string name="send_coins_fragment_direct_payment_enable">Odoslať platbu priamo príjemcovi.</string>

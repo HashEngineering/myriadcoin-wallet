@@ -3,7 +3,7 @@ Ayez vos Myriadcoins toujours avec vous dans votre poche ! Payez rapidement en n
 FONCTIONS :
 
 • Pas d'inscription, de service Web ou de nuage de nécessaire ! Ce portefeuille est décentralisé et de pair-à-pair.
-• Affichage du montant de Myriadcoin en MYR et mMYR.
+• Affichage du montant de Myriadcoin en XMY et mXMY.
 • Conversion vers et depuis des devises nationales.
 • Envoi et réception des Myriadcoins via NFC, codes QR ou des URLs Myriadcoin.
 • Carnet d'adresses pour les adresses Myriadcoin utilisées régulièrement.

@@ -2,11 +2,11 @@
 <resources>
 
 	<string-array name="preferences_precision_labels">
-		<item>MYR, 8位數</item>
-		<item>MYR, 6位數</item>
-		<item>MYR, 4位數</item>
-		<item>mMYR, 2位數</item>
-		<item>µMYR, 0位數</item>
+		<item>XMY, 8位數</item>
+		<item>XMY, 6位數</item>
+		<item>XMY, 4位數</item>
+		<item>mXMY, 2位數</item>
+		<item>µXMY, 0位數</item>
 	</string-array>
 
 </resources>
