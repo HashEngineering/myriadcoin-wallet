@@ -29,6 +29,7 @@ import java.util.ArrayList;
 
 import javax.annotation.CheckForNull;
 
+import de.schildbach.wallet.FileAttachmentProvider;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -179,9 +180,7 @@ public abstract class ReportIssueDialogBuilder extends DialogBuilder implements 
 					os.close();
 					is.close();
 
-					Io.chmod(file, 0777);
-
-					attachments.add(Uri.fromFile(file));
+					attachments.add(FileAttachmentProvider.contentUri(context.getPackageName(), file));
 				}
 			}
 			catch (final IOException x)
@@ -204,9 +203,7 @@ public abstract class ReportIssueDialogBuilder extends DialogBuilder implements 
 					writer.write(walletDump.toString());
 					writer.close();
 
-					Io.chmod(file, 0777);
-
-					attachments.add(Uri.fromFile(file));
+					attachments.add(FileAttachmentProvider.contentUri(context.getPackageName(), file));
 				}
 			}
 			catch (final IOException x)
@@ -260,6 +257,8 @@ public abstract class ReportIssueDialogBuilder extends DialogBuilder implements 
 		if (subject != null)
 			intent.putExtra(Intent.EXTRA_SUBJECT, subject);
 		intent.putExtra(Intent.EXTRA_TEXT, text);
+
+		intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
 
 		try
 		{
