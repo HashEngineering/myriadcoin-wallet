@@ -5,8 +5,8 @@
 	package="hashengineering.myriadcoin.wallet"
 	android:installLocation="internalOnly"
 
-	android:versionCode="10035"
-	android:versionName="0.11.3.1c" >
+	android:versionCode="10036"
+	android:versionName="0.11.3.1d" >
 
 
 	<uses-sdk
@@ -202,7 +202,7 @@
 			android:exported="false" />
 		<provider
 				android:name="de.schildbach.wallet.FileAttachmentProvider"
-				android:authorities="de.schildbach.wallet_test.file_attachment"
+				android:authorities="hashengineering.myriadcoin.wallet.file_attachment"
 				android:exported="false"
 				android:grantUriPermissions="true" />
 
