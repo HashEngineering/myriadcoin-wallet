@@ -314,10 +314,11 @@ public final class SendCoinsFragment extends SherlockFragment
 					final ConfidenceType confidenceType = confidence.getConfidenceType();
 					final int numBroadcastPeers = confidence.numBroadcastPeers();
 
-					if (state == State.SENDING)
-					{
-						if (confidenceType == ConfidenceType.DEAD)
+					if (state == State.SENDING) {
+						if (confidenceType == ConfidenceType.DEAD) {
 							state = State.FAILED;
+							log.error("TX Sending Failed:  " + tx.toString());
+						}
 						else if (numBroadcastPeers > 1 || confidenceType == ConfidenceType.BUILDING)
 							state = State.SENT;
 
@@ -975,6 +976,7 @@ public final class SendCoinsFragment extends SherlockFragment
 				updateView();
 
 				activity.longToast(R.string.send_coins_error_msg);
+				log.error("Problem sending coins");
 			}
 		}.sendCoinsOffline(sendRequest); // send asynchronously
 	}
